@@ -28,5 +28,5 @@ var ag = null;
 
 
     ljs
-    .load(['assets/clip.css', 'assets/clip.js'], init);
+    .load(['https://js-jokes.github.io/clippy/assets/clip.css', 'https://js-jokes.github.io/clippy/assets/clip.js'], init);
 })();
