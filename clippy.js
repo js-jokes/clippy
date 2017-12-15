@@ -13,7 +13,6 @@ var ag = null;
     }
 
     function init() {
-        clippy.BASE_PATH = 'http://s3.amazonaws.com/clippy.js/Agents/';
         clippy.load('Clippy', function(agent) {
             // Do anything with the loaded agent
             agent.show();
