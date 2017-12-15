@@ -6,7 +6,7 @@ var ag = null;
     function sayHello(agent) {
         agent.play("LookRight");
         var user = '';
-        if(typeof(window._cng)!= 'undefined' && typeof(window._cng.user.UserName) != 'undefined') {
+        if(typeof(window._cng)!= 'undefined' && typeof(window._cng.user)!= 'undefined' && typeof(window._cng.user.UserName) != 'undefined') {
             user = ' ' + window._cng.user.UserName + ' ';
         }
         agent.speak('Cześć' + user + ':) Co dzisiaj psujemy?');
