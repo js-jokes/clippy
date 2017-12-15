@@ -22,7 +22,7 @@ var ag = null;
             sayHello(agent);
             setInterval(function() {
                 agent.animate();
-            }, 5000);
+            }, 45000);
         
         });
 }
